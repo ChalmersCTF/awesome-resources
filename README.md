@@ -7,7 +7,7 @@ This repository contains useful links and resources.
 [**Ransomware** known variants & prevention](https://docs.google.com/spreadsheets/d/1TWS238xacAto-fLKh1n5uTsdijWdCEsGIM0Y0Hvmc5g/pubhtml)
 
 
-#### General Red-Team
+#### Red-Team General
 [ATT&CK Adversarial Tactics](https://attack.mitre.org/wiki/Main_Page)
 
 [PenTesting Cheat Sheet](https://highon.coffee/blog/penetration-testing-tools-cheat-sheet/#finger-a-specific-username)
@@ -25,7 +25,7 @@ This repository contains useful links and resources.
 #### Books
 
 
-#### Other Good Resources
+#### Other Resources
    <https://github.com/zardus/ctf-tools>
 
    <https://awesomehacking.org/>
