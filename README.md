@@ -29,3 +29,8 @@ This repository contains useful links and resources.
    <https://github.com/zardus/ctf-tools>
 
    <https://awesomehacking.org/>
+
+
+#### TO ADD?
+[Online tool list](https://github.com/Eliot-Roxbergh/dotFIles/blob/master/text_files/online_tools_malware_reversing.txt)
+[Tool list](https://github.com/Eliot-Roxbergh/dotFIles/blob/master/text_files/tools_malware_reversing.txt)
