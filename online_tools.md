@@ -1,7 +1,7 @@
 ### Scanners
-  https://www.virustotal.com       GOOD
+  https://www.virustotal.com       Recommended
   
-  https://www.hybrid-analysis.com  GOOD
+  https://www.hybrid-analysis.com  Recommended
   
   https://www.malwr.com
   
@@ -25,10 +25,10 @@
   
   
 ##### Blacklist:
-  https://ipvoid.com		    GOOD
-
-  https://virustotal.com	            GOOD
-
+  https://ipvoid.com		    Recommended
+  
+  https://virustotal.com	            Recommended
+  
   https://www.spamhaus.org/lookup/
 
   http://www.senderbase.org/
