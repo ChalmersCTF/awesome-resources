@@ -44,19 +44,19 @@ sysinternals                GOOD
 ### Linux (or cross-platform):
 
 #### File info
-        Balbuzard       (bruteforce XOR, ROL .. and find patterns)
-        strings         (strings)
-        flare-floss     (strings from malware)  GOOD
+        Balbuzard       	(bruteforce XOR, ROL .. and find patterns)
+        strings         	(strings)
+        flare-floss     	(strings from malware)  GOOD
         xxd		        (hex editor)            GOOD
-        Image-exiftool  (images)
-        Detect-it-easy  (file info)
-        file            (file info)
-        byteforce       (file info)
-        pescanner       (file info)             GOOD
-        binwalk         (file info)             GOOD
+        Image-exiftool  	(images)
+        Detect-it-easy  	(file info)
+        file            	(file info)
+        byteforce       	(file info)
+        pescanner       	(file info)             GOOD
+        binwalk        		(file info)             GOOD
 
-        MaltegoVT       (Domain, IP or file info) uses virustotal API
-        TekDefense-Automater (online lookup: IP, domain, HASH)
+        MaltegoVT       	(Domain, IP or file info) uses virustotal API
+        TekDefense-Automater 	(online lookup: IP, domain, HASH)
    
 #### Web related: 
         dig             (DNS lookup)    
@@ -65,12 +65,12 @@ sysinternals                GOOD
         machinae        (pip3 install machinae , info from site)
         inetsim         (simulate internet services in a lab environment)
         IPinfo
-        Firebug              (browser plugin - debugger and more)
-                              Better tools for javascript exists, spidermonkey?
+        Firebug         (browser plugin - debugger and more)
+                        Better tools for javascript exists, spidermonkey?
 #### Memory related:
         Rekall
         Volatility   (memory forensics)
-        VolDiff     (compare win7 dumps with volatility)
+        VolDiff      (compare win7 dumps with volatility)
         
 #### Debug & reverse:
         vivisect/vdb/vtrace  (static analysis, debugger)
@@ -79,7 +79,7 @@ sysinternals                GOOD
         GDB                  (GNU Project Debugger)
         PINCE                (GDB front-end/reverse engineering)	
         pyelftools           (Python library for parsing ELF and DWARF)	
-        capstone 			(disassembler) 
+        capstone 			 (disassembler) 
 
 
 ### To consider:
