@@ -20,7 +20,7 @@
    https://awesomehacking.org/
 
 ##### Books
-   Know Your Enemy: Learning about Security Threats (2nd Edition)
+    Know Your Enemy: Learning about Security Threats (2nd Edition)
    
 ##### Reading & training:
    http://www.malware-traffic-analysis.net 		(pcap files)
@@ -39,7 +39,7 @@
    
    ( https://twitter.com )			(news)
    
-   ( https://n0where.net ) 			(I dunno this site is completely broken for me)
+   ( https://n0where.net ) 			(broken site?)
 
 ##### Swedish:
 	
