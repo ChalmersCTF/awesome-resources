@@ -16,7 +16,7 @@ I have not tried all tools mentioned
 ### Windows only:
 sysinternals                GOOD
     
-##### File info & div:
+#### File info & div:
         trid         (file info)            GOOD
         PPEE         (PE analyzer)
         hackers-grep (PE analyzer)
@@ -25,16 +25,16 @@ sysinternals                GOOD
         Immunity Debugger
 [unpacker](https://github.com/malwaremusings/unpacker/)    (malware analysis with WinDbg) 
 
-##### Forensics & memory: 
+#### Forensics & memory: 
         AChoir       (Windows -live- forensics)
         RegRipper    (Windows registry)
         RegShot      (comparing registry dumps)     GOOD
         Fibratus     (Windows kernel activity)
     
-##### Web related:
+#### Web related:
 	burpsuite    (HTTP/HTTPS debugging and security testing)    GOOD
         fiddler      (HTTP/HTTPS debugging)     GOOD
-##### Div:
+#### Div:
         cygwin	     (terminal)
         cmder        (terminal)     GOOD
         universal extraction tool   GOOD
@@ -43,7 +43,7 @@ sysinternals                GOOD
 
 ### Linux (or cross-platform):
 
-##### File info
+#### File info
         Balbuzard       (bruteforce XOR, ROL .. and find patterns)
         strings         (strings)
         flare-floss     (strings from malware)  GOOD
@@ -58,7 +58,7 @@ sysinternals                GOOD
         MaltegoVT       (Domain, IP or file info) uses virustotal API
         TekDefense-Automater (online lookup: IP, domain, HASH)
    
-##### Web related: 
+#### Web related: 
         dig             (DNS lookup)    
         whois               
         fakedns
@@ -67,12 +67,12 @@ sysinternals                GOOD
         IPinfo
         Firebug              (browser plugin - debugger and more)
                               Better tools for javascript exists, spidermonkey?
-##### Memory related:
+#### Memory related:
         Rekall
         Volatility   (memory forensics)
         VolDiff     (compare win7 dumps with volatility)
         
-##### Debug & reverse:
+#### Debug & reverse:
         vivisect/vdb/vtrace  (static analysis, debugger)
         IDA-pro              (freeware alternative exists on Windows, disassembler)    GOOD
         Radare2              (similar to IDA-pro, free)
