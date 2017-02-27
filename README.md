@@ -27,7 +27,7 @@ This repository contains useful links and resources.
 ##### Books
    Know Your Enemy: Learning about Security Threats (2nd Edition)
    
-#####Reading & training:
+##### Reading & training:
    http://www.malware-traffic-analysis.net 		(pcap files)
    
    https://www.exploit-db.com				(current exploits)
@@ -46,16 +46,10 @@ This repository contains useful links and resources.
    
    ( https://n0where.net ) 			(I dunno this site is completely broken for me)
 
-Swedish:
+**Swedish:
 	
    https://kryptera.se		(news & guides)
 	
    http://penetrationstest.se	(news & guides)
 	
    https://swehack.org/		(forum)
-
-
-##### TO ADD?
-   [Online tool list](https://github.com/Eliot-Roxbergh/dotFIles/blob/master/text_files/online_tools_malware_reversing.txt)
-
-   [Tool list](https://github.com/Eliot-Roxbergh/dotFIles/blob/master/text_files/tools_malware_reversing.txt)
