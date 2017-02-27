@@ -46,7 +46,7 @@ This repository contains useful links and resources.
    
    ( https://n0where.net ) 			(I dunno this site is completely broken for me)
 
-**Swedish:
+** Swedish:
 	
    https://kryptera.se		(news & guides)
 	
