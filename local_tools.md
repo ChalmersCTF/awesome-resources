@@ -21,9 +21,9 @@ sysinternals                GOOD
         PPEE         (PE analyzer)
         hackers-grep (PE analyzer)
         de4dot       (.NET deobfuscator)
-        [unpacker](https://github.com/malwaremusings/unpacker/)    (malware analysis with WinDbg) 
         WinDbg       (Windows debugger)
         Immunity Debugger
+[unpacker](https://github.com/malwaremusings/unpacker/)    (malware analysis with WinDbg) 
 
 ##### Forensics & memory: 
         AChoir       (Windows -live- forensics)
@@ -39,9 +39,7 @@ sysinternals                GOOD
         cmder        (terminal)     GOOD
         universal extraction tool   GOOD
         pafish       (sandbox detection tool)
-
-
-
+	
 
 ### Linux (or cross-platform):
 
