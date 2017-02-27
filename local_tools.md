@@ -4,19 +4,19 @@ I have not tried all tools mentioned
     especially those for windows
 
 ### OS / bootable:
-   remnux		(linux distro for malware and reversing)    GOOD
+    remnux		(linux distro for malware and reversing)    GOOD
+  
+    santoku     (linux distro for malware and forensics)
     
-   santoku     (linux distro for malware and forensics)
+    cuckoo		(sandbox)
     
-   cuckoo		(sandbox)
-    
-   sandboxie	(sandbox)
+    sandboxie	(sandbox)
 
 
 ### Windows only:
-    sysinternals                GOOD
+sysinternals                GOOD
     
-    File info & div:
+##### File info & div:
         trid         (file info)            GOOD
         PPEE         (PE analyzer)
         hackers-grep (PE analyzer)
@@ -25,17 +25,16 @@ I have not tried all tools mentioned
         WinDbg       (Windows debugger)
         Immunity Debugger
 
-    Forensics & memory: 
+##### Forensics & memory: 
         AChoir       (Windows -live- forensics)
         RegRipper    (Windows registry)
         RegShot      (comparing registry dumps)     GOOD
         Fibratus     (Windows kernel activity)
     
-    Web related:
-        burpsuite    (HTTP/HTTPS debugging and security testing)    GOOD
+##### Web related:
+	burpsuite    (HTTP/HTTPS debugging and security testing)    GOOD
         fiddler      (HTTP/HTTPS debugging)     GOOD
-
-   Div:
+##### Div:
         cygwin	     (terminal)
         cmder        (terminal)     GOOD
         universal extraction tool   GOOD
@@ -46,7 +45,7 @@ I have not tried all tools mentioned
 
 ### Linux (or cross-platform):
 
-    File info
+##### File info
         Balbuzard       (bruteforce XOR, ROL .. and find patterns)
         strings         (strings)
         flare-floss     (strings from malware)  GOOD
@@ -61,7 +60,7 @@ I have not tried all tools mentioned
         MaltegoVT       (Domain, IP or file info) uses virustotal API
         TekDefense-Automater (online lookup: IP, domain, HASH)
    
-   Web related: 
+##### Web related: 
         dig             (DNS lookup)    
         whois               
         fakedns
@@ -70,12 +69,12 @@ I have not tried all tools mentioned
         IPinfo
         Firebug              (browser plugin - debugger and more)
                                  Better tools for javascript exists, spidermonkey?
-    Memory related:
+##### Memory related:
         Rekall
         Volatility   (memory forensics)
         VolDiff     (compare win7 dumps with volatility)
         
-    Debug & reverse:
+##### Debug & reverse:
         vivisect/vdb/vtrace  (static analysis, debugger)
         IDA-pro              (freeware alternative exists on Windows, disassembler)    GOOD
         Radare2              (similar to IDA-pro, free)
@@ -86,11 +85,11 @@ I have not tried all tools mentioned
 
 
 ### To consider:
-	http://www.kitploit.com/2016/07/limon-sandbox-for-analyzing-linux.html 		(linux malware analysis)
+http://www.kitploit.com/2016/07/limon-sandbox-for-analyzing-linux.html 		(linux malware analysis)
 	
-  https://www.blackhat.com/us-16/briefings.html#augmenting-static-analysis-using-pintool-ablation		(static analysis)
+https://www.blackhat.com/us-16/briefings.html#augmenting-static-analysis-using-pintool-ablation		(static analysis)
 	
 ### Assorted:
-	http://www.keystone-engine.org/		(assembler framework)
+http://www.keystone-engine.org/		(assembler framework)
   
-	SMRT            (Sublime plugin for malware research)
+SMRT            (Sublime plugin for malware research)
