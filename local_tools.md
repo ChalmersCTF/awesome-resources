@@ -47,7 +47,7 @@ sysinternals                GOOD
         Balbuzard       	(bruteforce XOR, ROL .. and find patterns)
         strings         	(strings)
         flare-floss     	(strings from malware)  GOOD
-        xxd		        (hex editor)            GOOD
+        xxd		        	(hex editor)            GOOD
         Image-exiftool  	(images)
         Detect-it-easy  	(file info)
         file            	(file info)
@@ -56,7 +56,7 @@ sysinternals                GOOD
         binwalk        		(file info)             GOOD
 
         MaltegoVT       	(Domain, IP or file info) uses virustotal API
-        TekDefense-Automater 	(online lookup: IP, domain, HASH)
+        TekDefense-Automater (online lookup: IP, domain, HASH)
    
 #### Web related: 
         dig             (DNS lookup)    
