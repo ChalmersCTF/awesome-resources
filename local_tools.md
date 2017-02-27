@@ -1,20 +1,15 @@
-Tools tagged "GOOD" I can recommend.
-
-I have not tried all tools mentioned
-    especially those for windows
-
 ### OS / bootable:
-    remnux		(linux distro for malware and reversing)    GOOD
+    remnux		(linux distro for malware and reversing)    Recommended
     santoku     (linux distro for malware and forensics) 
     cuckoo		(sandbox)   
     sandboxie	(sandbox)
 
 
 ### Windows only:
-sysinternals                GOOD
+sysinternals                Recommended
     
 #### File info & div:
-        trid         (file info)            GOOD
+        trid         (file info)            Recommended
         PPEE         (PE analyzer)
         hackers-grep (PE analyzer)
         de4dot       (.NET deobfuscator)
@@ -25,16 +20,16 @@ sysinternals                GOOD
 #### Forensics & memory: 
         AChoir       (Windows -live- forensics)
         RegRipper    (Windows registry)
-        RegShot      (comparing registry dumps)     GOOD
+        RegShot      (comparing registry dumps)     Recommended
         Fibratus     (Windows kernel activity)
     
 #### Web related:
-        burpsuite    (HTTP/HTTPS debugging and security testing)    GOOD
-        fiddler      (HTTP/HTTPS debugging)     GOOD
+        burpsuite    (HTTP/HTTPS debugging and security testing)    Recommended
+        fiddler      (HTTP/HTTPS debugging)     Recommended
 #### Div:
         cygwin	     (terminal)
-        cmder        (terminal)     GOOD
-        universal extraction tool   GOOD
+        cmder        (terminal)     Recommended
+        universal extraction tool   Recommended
         pafish       (sandbox detection tool)
 	
 
@@ -43,15 +38,14 @@ sysinternals                GOOD
 #### File info
         Balbuzard       	 (bruteforce XOR, ROL .. and find patterns)
         strings         	 (strings)
-        flare-floss     	 (strings from malware)  GOOD
-        xxd		        	 (hex editor)            GOOD
+        flare-floss     	 (strings from malware)  Recommended
+        xxd		        	 (hex editor)            Recommended
         Image-exiftool  	 (images)
         Detect-it-easy  	 (file info)
         file            	 (file info)
         byteforce       	 (file info)
-        pescanner       	 (file info)             GOOD
-        binwalk        		 (file info)             GOOD
-
+        pescanner       	 (file info)             Recommended
+        binwalk        		 (file info)             Recommended
         MaltegoVT       	 (Domain, IP or file info) uses virustotal API
         TekDefense-Automater (online lookup: IP, domain, HASH)
    
@@ -71,7 +65,7 @@ sysinternals                GOOD
         
 #### Debug & reverse:
         vivisect/vdb/vtrace  (static analysis, debugger)
-        IDA-pro              (freeware alternative exists on Windows, disassembler)    GOOD
+        IDA-pro              (freeware alternative exists on Windows, disassembler)    Recommended
         Radare2              (similar to IDA-pro, free)
         GDB                  (GNU Project Debugger)
         PINCE                (GDB front-end/reverse engineering)	
