@@ -6,4 +6,4 @@
 
 
 
-*The contents of this repository does not necessarily reflect the opinions held by Chalmers-CTF or its members*
+*The opinions expressed in this repository does not necessarily reflect those held by Chalmers-CTF or its members*
