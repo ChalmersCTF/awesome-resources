@@ -77,9 +77,9 @@ sysinternals                GOOD
         IDA-pro              (freeware alternative exists on Windows, disassembler)    GOOD
         Radare2              (similar to IDA-pro, free)
         GDB                  (GNU Project Debugger)
-        PINCE                (GDB front-end/reverse engineering)
-	pyelftools           (Python library for parsing ELF and DWARF)
-	capstone	     (disassembler) 
+        PINCE                (GDB front-end/reverse engineering)	
+        pyelftools           (Python library for parsing ELF and DWARF)	
+        capstone	     (disassembler) 
 
 
 ### To consider:
