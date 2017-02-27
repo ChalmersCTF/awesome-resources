@@ -40,5 +40,5 @@
     http://malwaredomainlist.com/mdl.php        
     https://github.com/ytisf/theZoo
 ### Programming & Debugging
-    [C/C++ to assemly in browser](https://godbolt.org/)
+[C/C++ to assemly in browser](https://godbolt.org/)
 
