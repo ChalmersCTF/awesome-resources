@@ -4,13 +4,13 @@ I have not tried all tools mentioned
     especially those for windows
 
 ### OS / bootable:
-    remnux		(linux distro for malware and reversing)    GOOD
+   remnux		(linux distro for malware and reversing)    GOOD
     
-    santoku     (linux distro for malware and forensics)
+   santoku     (linux distro for malware and forensics)
     
-    cuckoo		(sandbox)
+   cuckoo		(sandbox)
     
-    sandboxie	(sandbox)
+   sandboxie	(sandbox)
 
 
 ### Windows only:
