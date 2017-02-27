@@ -18,7 +18,7 @@
     https://whois.domaintools.com/
         
 ##### Blacklist:
-    https://ipvoid.com		    GOOD
+    <https://ipvoid.com>		    GOOD
     https://virustotal.com	            GOOD
     https://www.spamhaus.org/lookup/
     http://www.senderbase.org/
