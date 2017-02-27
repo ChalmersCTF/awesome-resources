@@ -2,7 +2,7 @@
 
 ### [Online Tools](online_tools.md)
 
-### [Learning and CTFs](learning_&_CTF.md)
+### [Learning and CTF](learning_&_CTF.md)
 
 
 
