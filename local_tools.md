@@ -79,7 +79,7 @@ sysinternals                GOOD
         GDB                  (GNU Project Debugger)
         PINCE                (GDB front-end/reverse engineering)	
         pyelftools           (Python library for parsing ELF and DWARF)	
-        capstone	     (disassembler) 
+        capstone 		(disassembler) 
 
 
 ### To consider:
