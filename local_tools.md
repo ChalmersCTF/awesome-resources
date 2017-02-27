@@ -5,11 +5,8 @@ I have not tried all tools mentioned
 
 ### OS / bootable:
     remnux		(linux distro for malware and reversing)    GOOD
-  
-    santoku     (linux distro for malware and forensics)
-    
-    cuckoo		(sandbox)
-    
+    santoku     (linux distro for malware and forensics) 
+    cuckoo		(sandbox)   
     sandboxie	(sandbox)
 
 
@@ -32,7 +29,7 @@ sysinternals                GOOD
         Fibratus     (Windows kernel activity)
     
 #### Web related:
-	burpsuite    (HTTP/HTTPS debugging and security testing)    GOOD
+        burpsuite    (HTTP/HTTPS debugging and security testing)    GOOD
         fiddler      (HTTP/HTTPS debugging)     GOOD
 #### Div:
         cygwin	     (terminal)
