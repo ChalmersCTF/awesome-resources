@@ -82,3 +82,5 @@ https://www.blackhat.com/us-16/briefings.html#augmenting-static-analysis-using-p
 http://www.keystone-engine.org/		(assembler framework)
   
 SMRT            (Sublime plugin for malware research)
+
+https://github.com/gchq/CyberChef
