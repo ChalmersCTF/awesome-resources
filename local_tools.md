@@ -63,7 +63,6 @@ sysinternals                	   [Recommended]
         Volatility   (memory forensics)
         VolDiff      (compare win7 dumps with volatility)
         
-#### Debug & reverse:
         vivisect/vdb/vtrace  (static analysis, debugger)
         IDA-pro              (freeware alternative exists on Windows, disassembler)    Recommended
         Radare2              (similar to IDA-pro, free)
@@ -72,6 +71,10 @@ sysinternals                	   [Recommended]
         pyelftools           (Python library for parsing ELF and DWARF)	
         capstone 			 (disassembler) 
 
+#### DNS:
+				DNSviz		analyzing & visualizing  DNS/DNSSEC behavior
+				Unbound 	validating recursive caching resolver
+				[more tools](https://www.verisign.com/en_US/company-information/verisign-labs/internet-security-tools/index.xhtml)
 
 ### To consider:
 http://www.kitploit.com/2016/07/limon-sandbox-for-analyzing-linux.html 		(linux malware analysis)

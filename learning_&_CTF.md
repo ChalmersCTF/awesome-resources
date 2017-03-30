@@ -6,6 +6,8 @@
 
    [PenTesting Cheat Sheet](https://highon.coffee/blog/penetration-testing-tools-cheat-sheet/#finger-a-specific-username)
 
+### Reversing
+   https://securedorg.github.io/RE101/
 
 ### CTFs and similar
    https://ctftime.org/
@@ -23,6 +25,8 @@
     Know Your Enemy: Learning about Security Threats (2nd Edition)
    
 ##### Reading & training:
+   http://opensecuritytraining.info/Training.html (training) !
+
    http://www.malware-traffic-analysis.net 		(pcap files)
    
    https://www.exploit-db.com				(current exploits)
