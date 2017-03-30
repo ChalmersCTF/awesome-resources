@@ -17,11 +17,11 @@ https://hardenedlinux.github.io/system-security/2017/03/17/debian_hardened_boot.
 ### Misplaced
 	https://blog.jessfraz.com/post/containers-zones-jails-vms/
 
-## Privacy
+##### Privacy
 	VPN, TOR
 	https://tools.ietf.org/html/rfc7624
 	https://www.internetsociety.org/doc/internet-content-blocking
 	
-## Overview security:
+##### Overview security:
 	http://www.ranum.com/security/computer_security/editorials/dumb/
 	https://medium.com/@justin.schuh/stop-buying-bad-security-prescriptions-f18e4f61ba9e	
