@@ -2,7 +2,9 @@
 Qubes, VMs, containers ..
 
 iptables
+
 SElinux, apparmor, PaX/Grsecurity
+
 DNSSEC, DNScrypt, opennic
 
 https://hardenedlinux.github.io/system-security/2017/03/17/debian_hardened_boot.html
