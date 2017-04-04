@@ -1,8 +1,8 @@
 
 ## C-Programming Basic Tools
-	GCC				(Compiler)
-	GDB				(GNU Project Debugger)
-	Valgrind			(Debug, Memory leak)
+	GCC			(Compiler)
+	GDB			(GNU Project Debugger)
+	Valgrind	(Debug, Memory leak)
 		
 	Usage examples: https://github.com/Eliot-Roxbergh/dotFIles/blob/master/text_files/tools.txt
 
