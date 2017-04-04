@@ -63,18 +63,23 @@ sysinternals                	   [Recommended]
         Volatility   (memory forensics)
         VolDiff      (compare win7 dumps with volatility)
         
-        vivisect/vdb/vtrace  (static analysis, debugger)
-        IDA-pro              (freeware alternative exists on Windows, disassembler)    Recommended
-        Radare2              (similar to IDA-pro, free)
-        GDB                  (GNU Project Debugger)
-        PINCE                (GDB front-end/reverse engineering)	
-        pyelftools           (Python library for parsing ELF and DWARF)	
-        capstone 			 (disassembler) 
-
 #### DNS:
 				DNSviz		analyzing & visualizing  DNS/DNSSEC behavior
 				Unbound 	validating recursive caching resolver
 				[more tools](https://www.verisign.com/en_US/company-information/verisign-labs/internet-security-tools/index.xhtml)
+
+
+
+#### Analysis (debuggers, reversing, fuzzing, static code analysis, ..)
+        vivisect/vdb/vtrace  (static analysis, debugger)
+        IDA-pro              (freeware alternative exists on Windows, disassembler)    Recommended
+        Radare2              (similar to IDA-pro, free)
+        PINCE                (GDB front-end/reverse engineering)	
+        pyelftools           (Python library for parsing ELF and DWARF)	
+        capstone 			 (disassembler) 
+				[Malicious JS Analyser](https://github.com/CapacitorSet/box-js)
+        GDB                  (GNU Project Debugger)
+
 
 ### To consider:
 http://www.kitploit.com/2016/07/limon-sandbox-for-analyzing-linux.html 		(linux malware analysis)
