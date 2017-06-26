@@ -32,7 +32,7 @@ sysinternals      [Recommended]
 
 ### Linux (or cross-platform):
         pompem          (Exploit/vuln search)
-				yara            (malware classification)
+        yara            (malware classification)
 
 #### File / domain info
         Balbuzard       (bruteforce XOR, ROL .. and find patterns)
@@ -61,21 +61,21 @@ sysinternals      [Recommended]
         whois      (domain info)
         Firebug    (browser plugin - debugger and more)
         ( Better tools for javascript exists, spidermonkey? )
-				sqlmap     (SQL injection bruteforce)
+        sqlmap     (SQL injection bruteforce)
 
 ###### Manipulate / Handle / MITM local traffic
         burpsuite  (e.g. MITM local traffic)   Recommended
         fiddler    (e.g. MITM local traffic)   Recommended
-				wireshark  (traffic analyzis)          Recommended 
-				tcpdump    (display TCP/IP traffic live, searchable)
-				tcpreplay  (replay captured network traffic)
+        wireshark  (traffic analyzis)          Recommended 
+        tcpdump    (display TCP/IP traffic live, searchable)
+        tcpreplay  (replay captured network traffic)
 
         inetsim    (simulate internet services in a lab environment)
         sslstrip   (HTTPS -> HTTP, mitm)
         thc-ipv6   (IPv6 attack tool)
         fakedns    (fake DNS responses) 
         dnstop     (display local dns traffic)
-				tcpflow    (TCP/IP session reassembler)
+        tcpflow    (TCP/IP session reassembler)
 
 ###### DNS
         dig        (DNS lookup)  
