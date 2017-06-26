@@ -23,9 +23,6 @@ sysinternals                	   [Recommended]
         RegShot      (comparing registry dumps)     Recommended
         Fibratus     (Windows kernel activity)
     
-#### Web related:
-        burpsuite    (HTTP/HTTPS debugging and security testing)    Recommended
-        fiddler      (HTTP/HTTPS debugging)     Recommended
 #### Div:
         cygwin	     (terminal)
         cmder        (terminal)     Recommended
@@ -46,15 +43,17 @@ sysinternals                	   [Recommended]
         byteforce       	 (file info)
         pescanner       	 (file info)             Recommended
         binwalk        		 (file info)             Recommended
-        MaltegoVT       	 (Domain, IP or file info) uses virustotal API
-        TekDefense-Automater (online lookup: IP, domain, HASH)
+###### Uses online resources
+				MaltegoVT            (Domain, IP or file info) uses virustotal API 
+				TekDefense-Automater (lookups: IP, domain, HASH)
+        machinae             (info gathering from sites) 
    
 #### Web related: 
-        dig             (DNS lookup)    
-        whois               
-        fakedns
-        machinae        (pip3 install machinae , info from site)
-        inetsim         (simulate internet services in a lab environment)
+        burpsuite    (HTTP/HTTPS debugging and security testing)    Recommended
+        fiddler      (HTTP/HTTPS debugging)     Recommended
+        inetsim       (simulate internet services in a lab environment)
+        
+				whois               
         IPinfo
         Firebug         (browser plugin - debugger and more)
                         Better tools for javascript exists, spidermonkey?
@@ -64,21 +63,31 @@ sysinternals                	   [Recommended]
         VolDiff      (compare win7 dumps with volatility)
         
 #### DNS:
+        dig             (DNS lookup)	
 				DNSviz		analyzing & visualizing  DNS/DNSSEC behavior
 				Unbound 	validating recursive caching resolver
+        fakedns
+				
 				[more tools](https://www.verisign.com/en_US/company-information/verisign-labs/internet-security-tools/index.xhtml)
 
 
 
 #### Analysis (debuggers, reversing, fuzzing, static code analysis, ..)
+###### Reversing
+        Radare2  (binary analyzis, disassembler)         Recommended
+        IDA-pro  (-||- however free version is limited)  Recommended
+				capstone 			 (disassembler) 
+        nasm           (disassembler) 
+				x86dis				 (disassembler x86)
+###### Debuggers
         vivisect/vdb/vtrace  (static analysis, debugger)
-        IDA-pro              (freeware alternative exists on Windows, disassembler)    Recommended
-        Radare2              (similar to IDA-pro, free)
+				GDB                  (GNU Project Debugger)
         PINCE                (GDB front-end/reverse engineering)	
+				strace               (simple debugger)
+###### Other
         pyelftools           (Python library for parsing ELF and DWARF)	
-        capstone 			 (disassembler) 
+				
 				[Malicious JS Analyser](https://github.com/CapacitorSet/box-js)
-        GDB                  (GNU Project Debugger)
 
 
 ### To consider:
