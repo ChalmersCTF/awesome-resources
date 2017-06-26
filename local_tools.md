@@ -1,21 +1,21 @@
 ### OS / bootable:
     remnux    (linux distro for malware and reversing)    Recommended
-    santoku     (linux distro for malware and forensics) 
+    santoku   (linux distro for malware and forensics) 
     cuckoo    (sandbox)   
-    sandboxie  (sandbox)
+    sandboxie (sandbox)
 
 
 ### Windows only:
-sysinternals                     [Recommended]
+sysinternals      [Recommended]
     
 #### File info & div:
-        trid         (file info)            Recommended
-        PPEE         (PE analyzer)
-        hackers-grep (PE analyzer)
-        de4dot       (.NET deobfuscator)
-        WinDbg       (Windows debugger)
+        trid             (file info)            Recommended
+        PPEE             (PE analyzer)
+        hackers-grep     (PE analyzer)
+        de4dot           (.NET deobfuscator)
+        WinDbg           (Windows debugger)
         Immunity Debugger
-[unpacker](https://github.com/malwaremusings/unpacker/)    (malware analysis with WinDbg) 
+[unpacker](https://github.com/malwaremusings/unpacker/)      (malware analysis with WinDbg) 
 
 #### Forensics & memory: 
         AChoir       (Windows -live- forensics)
@@ -25,48 +25,48 @@ sysinternals                     [Recommended]
     
 #### Div:
         cygwin       (terminal)
-        cmder        (terminal)     Recommended
-        universal extraction tool   Recommended
+        cmder        (terminal)       Recommended
         pafish       (sandbox detection tool)
+        universal extraction tool     Recommended
   
 
 ### Linux (or cross-platform):
 
 #### File info
-        Balbuzard          (bruteforce XOR, ROL .. and find patterns)
-        strings            (strings)
-        flare-floss        (strings from malware)  Recommended
-        xxd               (hex editor)            Recommended
-        Image-exiftool     (images)
-        Detect-it-easy     (file info)
-        file               (file info)
-        byteforce          (file info)
-        pescanner          (file info)             Recommended
-        binwalk             (file info)             Recommended
+        Balbuzard       (bruteforce XOR, ROL .. and find patterns)
+        strings         (strings)
+        flare-floss     (strings from malware)  Recommended
+        xxd             (hex editor)            Recommended
+        Image-exiftool  (images)
+        Detect-it-easy  (file info)
+        file            (file info)
+        byteforce       (file info)
+        pescanner       (file info)             Recommended
+        binwalk         (file info)             Recommended
 
 ###### Uses online resources
-        MaltegoVT            (Domain, IP or file info) uses virustotal API 
-        TekDefense-Automater (lookups: IP, domain, HASH)
-        machinae             (info gathering from sites) 
+        MaltegoVT             (Domain, IP or file info) uses virustotal API 
+        TekDefense-Automater  (lookups: IP, domain, HASH)
+        machinae              (info gathering from sites) 
    
 #### Web related: 
-        burpsuite    (HTTP/HTTPS debugging and security testing)    Recommended
-        fiddler      (HTTP/HTTPS debugging)     Recommended
-        inetsim       (simulate internet services in a lab environment)
+        burpsuite  (HTTP/HTTPS debugging and security testing)       Recommended
+        fiddler    (HTTP/HTTPS debugging)                            Recommended
+        inetsim    (simulate internet services in a lab environment)
         
-        whois               
+        whois
         IPinfo
-        Firebug         (browser plugin - debugger and more)
-                        Better tools for javascript exists, spidermonkey?
+        Firebug    (browser plugin - debugger and more)
+        ( Better tools for javascript exists, spidermonkey? )
 #### Memory related:
         Rekall
         Volatility   (memory forensics)
         VolDiff      (compare win7 dumps with volatility)
         
 #### DNS:
-        dig             (DNS lookup)  
-        DNSviz    analyzing & visualizing  DNS/DNSSEC behavior
-        Unbound   validating recursive caching resolver
+        dig       (DNS lookup)  
+        DNSviz    (analyzing & visualizing  DNS/DNSSEC behavior)
+        Unbound   (validating recursive caching resolver)
         fakedns
         
         [more tools](https://www.verisign.com/en_US/company-information/verisign-labs/internet-security-tools/index.xhtml)
@@ -75,11 +75,11 @@ sysinternals                     [Recommended]
 
 #### Analysis (debuggers, reversing, fuzzing, static code analysis, ..)
 ###### Reversing
-        Radare2  (binary analyzis, disassembler)         Recommended
-        IDA-pro  (-||- however free version is limited)  Recommended
-        capstone        (disassembler) 
-        nasm           (disassembler) 
-        x86dis         (disassembler x86)
+        Radare2   (binary analyzis, disassembler)         Recommended
+        IDA-pro   (-||- however free version is limited)  Recommended
+        capstone  (disassembler) 
+        nasm      (disassembler) 
+        x86dis    (disassembler x86)
 ###### Debuggers
         vivisect/vdb/vtrace  (static analysis, debugger)
         GDB                  (GNU Project Debugger)
