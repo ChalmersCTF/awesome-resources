@@ -31,44 +31,49 @@ sysinternals      [Recommended]
   
 
 ### Linux (or cross-platform):
+        pompem          (Exploit/vuln search)
 
 #### File / domain info
         Balbuzard       (bruteforce XOR, ROL .. and find patterns)
         strings         (strings)
-        flare-floss     (strings from malware)  Recommended
+        flare-floss     (strings deobfuscation) Recommended
         xxd             (hex editor)            Recommended
-        Image-exiftool  (images)
+        Image-exiftool  (image metadata tool)
         Detect-it-easy  (file info)
         file            (file info)
         byteforce       (file info)
-        pescanner       (file info)             Recommended
         binwalk         (file info)             Recommended
+				AnalyzePE            (tools for PE file)
+				    pescanner        (PE information, contained in AnalyzePE) Recommended
+
 
 ###### Uses online resources
+        IPinfo                (IP, domain info) uses virustotal, google, urlvoid APIs
         MaltegoVT             (Domain, IP or file info) uses virustotal API 
         TekDefense-Automater  (lookups: IP, domain, HASH)
         machinae              (info gathering from sites) 
 				rblcheck							(IP blocklist, available in terminal and web)
    
-#### Internet related:        
+#### Internet related:       	 
 				masscan    (mass port scanning)
         nmap       (port/vuln scanner +service detection)
 				whois			 (domain info)
-        IPinfo
         Firebug    (browser plugin - debugger and more)
         ( Better tools for javascript exists, spidermonkey? )
 
-###### Manipulate / MITM local traffic
+###### Manipulate / Handle / MITM local traffic
 				burpsuite  (e.g. MITM local traffic)       Recommended
         fiddler    (e.g. MITM local traffic)       Recommended
         inetsim    (simulate internet services in a lab environment)
 				sslstrip   (HTTPS -> HTTP, mitm)
+				thc-ipv6   (IPv6 attack tool)
+        fakedns    (fake DNS responses) 
 
-###### DNS:
+
+###### DNS
         dig       (DNS lookup)  
         DNSviz    (analyzing & visualizing  DNS/DNSSEC behavior)
         Unbound   (validating recursive caching resolver)
-        fakedns      
 [more tools](https://www.verisign.com/en_US/company-information/verisign-labs/internet-security-tools/index.xhtml)
 
 ###### general linux
@@ -79,13 +84,17 @@ sysinternals      [Recommended]
         traceroute (route to host)
 				route 		 (local routing table)
 				arp				 (local arp cache)
+				psutils    (process and system utils)
+				pexpect    (spawn and control children, automation)
 
 #### Memory related
         Rekall
         Volatility   (memory forensics)
-        VolDiff      (compare win7 dumps with volatility)
+            VolDiff      (compare win7 dumps with Volatility)
+            VolUtility   (Volatility webUI)
 #### Forensics     
-		    (Debian package forensics-all contains a lot of relevant)
+		    (Debian package forensics-all contains a lot of relevant, not limited to bruteforcing archives)
+
         
 
 
@@ -104,7 +113,9 @@ sysinternals      [Recommended]
         strace               (simple debugger)
 ###### Other
         pyelftools           (Python library for parsing ELF and DWARF)  
-        
+            readelf          (ELF information, contained in pyelftools)
+
+
 [Malicious JS Analyser](https://github.com/CapacitorSet/box-js/)
 				
 
