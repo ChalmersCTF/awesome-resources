@@ -39,6 +39,7 @@ sysinternals      [Recommended]
         strings         (strings)
         flare-floss     (strings deobfuscation) Recommended
         xxd             (hex editor)            Recommended
+        hexdump         (hex viewer)
         Image-exiftool  (image metadata tool)
         Detect-it-easy  (file info)
         file            (file info)
