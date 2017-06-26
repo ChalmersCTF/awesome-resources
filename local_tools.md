@@ -43,8 +43,8 @@ sysinternals      [Recommended]
         file            (file info)
         byteforce       (file info)
         binwalk         (file info)             Recommended
-				AnalyzePE            (tools for PE file)
-				    pescanner        (PE information, contained in AnalyzePE) Recommended
+        AnalyzePE       (tools for PE file)
+            pescanner   (PE information, contained in AnalyzePE) Recommended
 
 
 ###### Uses online resources
@@ -52,40 +52,40 @@ sysinternals      [Recommended]
         MaltegoVT             (Domain, IP or file info) uses virustotal API 
         TekDefense-Automater  (lookups: IP, domain, HASH)
         machinae              (info gathering from sites) 
-				rblcheck							(IP blocklist, available in terminal and web)
+        rblcheck              (IP blocklist, available in terminal and web)
    
-#### Internet related:       	 
-				masscan    (mass port scanning)
+#### Internet related:          
+        masscan    (mass port scanning)
         nmap       (port/vuln scanner +service detection)
-				whois			 (domain info)
+        whois      (domain info)
         Firebug    (browser plugin - debugger and more)
         ( Better tools for javascript exists, spidermonkey? )
 
 ###### Manipulate / Handle / MITM local traffic
-				burpsuite  (e.g. MITM local traffic)       Recommended
+        burpsuite  (e.g. MITM local traffic)       Recommended
         fiddler    (e.g. MITM local traffic)       Recommended
         inetsim    (simulate internet services in a lab environment)
-				sslstrip   (HTTPS -> HTTP, mitm)
-				thc-ipv6   (IPv6 attack tool)
+        sslstrip   (HTTPS -> HTTP, mitm)
+        thc-ipv6   (IPv6 attack tool)
         fakedns    (fake DNS responses) 
 
 
 ###### DNS
-        dig       (DNS lookup)  
-        DNSviz    (analyzing & visualizing  DNS/DNSSEC behavior)
-        Unbound   (validating recursive caching resolver)
+        dig        (DNS lookup)  
+        DNSviz     (analyzing & visualizing  DNS/DNSSEC behavior)
+        Unbound    (validating recursive caching resolver)
 [more tools](https://www.verisign.com/en_US/company-information/verisign-labs/internet-security-tools/index.xhtml)
 
 ###### general linux
-				iftop      (live network traffic on system)
-				ntop       (live network traffic on system)
-				netcat     (TCP/IP tool, send/receive traffic)
+        iftop      (live network traffic on system)
+        ntop       (live network traffic on system)
+        netcat     (TCP/IP tool, send/receive traffic)
         netstat    (local connections etc.)
         traceroute (route to host)
-				route 		 (local routing table)
-				arp				 (local arp cache)
-				psutils    (process and system utils)
-				pexpect    (spawn and control children, automation)
+        route      (local routing table)
+        arp        (local arp cache)
+        psutils    (process and system utils)
+        pexpect    (spawn and control children, automation)
 
 #### Memory related
         Rekall
@@ -93,7 +93,7 @@ sysinternals      [Recommended]
             VolDiff      (compare win7 dumps with Volatility)
             VolUtility   (Volatility webUI)
 #### Forensics     
-		    (Debian package forensics-all contains a lot of relevant, not limited to bruteforcing archives)
+        (Debian package forensics-all contains a lot of relevant, not limited to bruteforcing archives)
 
         
 
@@ -117,7 +117,7 @@ sysinternals      [Recommended]
 
 
 [Malicious JS Analyser](https://github.com/CapacitorSet/box-js/)
-				
+        
 
 
 ### To consider:
