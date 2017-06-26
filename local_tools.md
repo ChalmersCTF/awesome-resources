@@ -32,7 +32,7 @@ sysinternals      [Recommended]
 
 ### Linux (or cross-platform):
 
-#### File info
+#### File / domain info
         Balbuzard       (bruteforce XOR, ROL .. and find patterns)
         strings         (strings)
         flare-floss     (strings from malware)  Recommended
@@ -48,28 +48,45 @@ sysinternals      [Recommended]
         MaltegoVT             (Domain, IP or file info) uses virustotal API 
         TekDefense-Automater  (lookups: IP, domain, HASH)
         machinae              (info gathering from sites) 
+				rblcheck							(IP blocklist, available in terminal and web)
    
-#### Web related: 
-        burpsuite  (HTTP/HTTPS debugging and security testing)       Recommended
-        fiddler    (HTTP/HTTPS debugging)                            Recommended
-        inetsim    (simulate internet services in a lab environment)
-        
-        whois
+#### Internet related:        
+				masscan    (mass port scanning)
+        nmap       (port/vuln scanner +service detection)
+				whois			 (domain info)
         IPinfo
         Firebug    (browser plugin - debugger and more)
         ( Better tools for javascript exists, spidermonkey? )
-#### Memory related:
-        Rekall
-        Volatility   (memory forensics)
-        VolDiff      (compare win7 dumps with volatility)
-        
-#### DNS:
+
+###### Manipulate / MITM local traffic
+				burpsuite  (e.g. MITM local traffic)       Recommended
+        fiddler    (e.g. MITM local traffic)       Recommended
+        inetsim    (simulate internet services in a lab environment)
+				sslstrip   (HTTPS -> HTTP, mitm)
+
+###### DNS:
         dig       (DNS lookup)  
         DNSviz    (analyzing & visualizing  DNS/DNSSEC behavior)
         Unbound   (validating recursive caching resolver)
-        fakedns
+        fakedns      
+[more tools](https://www.verisign.com/en_US/company-information/verisign-labs/internet-security-tools/index.xhtml)
+
+###### general linux
+				iftop      (live network traffic on system)
+				ntop       (live network traffic on system)
+				netcat     (TCP/IP tool, send/receive traffic)
+        netstat    (local connections etc.)
+        traceroute (route to host)
+				route 		 (local routing table)
+				arp				 (local arp cache)
+
+#### Memory related
+        Rekall
+        Volatility   (memory forensics)
+        VolDiff      (compare win7 dumps with volatility)
+#### Forensics     
+		    (Debian package forensics-all contains a lot of relevant)
         
-        [more tools](https://www.verisign.com/en_US/company-information/verisign-labs/internet-security-tools/index.xhtml)
 
 
 
@@ -88,7 +105,8 @@ sysinternals      [Recommended]
 ###### Other
         pyelftools           (Python library for parsing ELF and DWARF)  
         
-        [Malicious JS Analyser](https://github.com/CapacitorSet/box-js)
+[Malicious JS Analyser](https://github.com/CapacitorSet/box-js/)
+				
 
 
 ### To consider:
