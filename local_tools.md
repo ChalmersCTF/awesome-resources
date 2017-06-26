@@ -32,6 +32,7 @@ sysinternals      [Recommended]
 
 ### Linux (or cross-platform):
         pompem          (Exploit/vuln search)
+				yara            (malware classification)
 
 #### File / domain info
         Balbuzard       (bruteforce XOR, ROL .. and find patterns)
@@ -60,21 +61,32 @@ sysinternals      [Recommended]
         whois      (domain info)
         Firebug    (browser plugin - debugger and more)
         ( Better tools for javascript exists, spidermonkey? )
+				sqlmap     (SQL injection bruteforce)
 
 ###### Manipulate / Handle / MITM local traffic
-        burpsuite  (e.g. MITM local traffic)       Recommended
-        fiddler    (e.g. MITM local traffic)       Recommended
+        burpsuite  (e.g. MITM local traffic)   Recommended
+        fiddler    (e.g. MITM local traffic)   Recommended
+				wireshark  (traffic analyzis)          Recommended 
+				tcpdump    (display TCP/IP traffic live, searchable)
+				tcpreplay  (replay captured network traffic)
+
         inetsim    (simulate internet services in a lab environment)
         sslstrip   (HTTPS -> HTTP, mitm)
         thc-ipv6   (IPv6 attack tool)
         fakedns    (fake DNS responses) 
-
+        dnstop     (display local dns traffic)
+				tcpflow    (TCP/IP session reassembler)
 
 ###### DNS
         dig        (DNS lookup)  
         DNSviz     (analyzing & visualizing  DNS/DNSSEC behavior)
         Unbound    (validating recursive caching resolver)
+        dns-browse (dig front-end, DNS browsing)
+        dnstracer  (trace dns traffic)
+        dnswalk    (dns debugger)
+
 [more tools](https://www.verisign.com/en_US/company-information/verisign-labs/internet-security-tools/index.xhtml)
+
 
 ###### general linux
         iftop      (live network traffic on system)
@@ -95,9 +107,6 @@ sysinternals      [Recommended]
 #### Forensics     
         (Debian package forensics-all contains a lot of relevant, not limited to bruteforcing archives)
 
-        
-
-
 
 #### Analysis (debuggers, reversing, fuzzing, static code analysis, ..)
 ###### Reversing
@@ -105,16 +114,20 @@ sysinternals      [Recommended]
         IDA-pro   (-||- however free version is limited)  Recommended
         capstone  (disassembler) 
         nasm      (disassembler) 
+        plasma-disassembler
         x86dis    (disassembler x86)
+
 ###### Debuggers
         vivisect/vdb/vtrace  (static analysis, debugger)
         GDB                  (GNU Project Debugger)
         PINCE                (GDB front-end/reverse engineering)  
         strace               (simple debugger)
+        valgrind             (C memory leaks etc.)
+###### Fuzzing
+        afl                  (american fuzzy lop, on binary or source) 
 ###### Other
         pyelftools           (Python library for parsing ELF and DWARF)  
             readelf          (ELF information, contained in pyelftools)
-
 
 [Malicious JS Analyser](https://github.com/CapacitorSet/box-js/)
         
