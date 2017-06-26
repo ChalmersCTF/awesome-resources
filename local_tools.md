@@ -1,12 +1,12 @@
 ### OS / bootable:
-    remnux		(linux distro for malware and reversing)    Recommended
+    remnux    (linux distro for malware and reversing)    Recommended
     santoku     (linux distro for malware and forensics) 
-    cuckoo		(sandbox)   
-    sandboxie	(sandbox)
+    cuckoo    (sandbox)   
+    sandboxie  (sandbox)
 
 
 ### Windows only:
-sysinternals                	   [Recommended]
+sysinternals                     [Recommended]
     
 #### File info & div:
         trid         (file info)            Recommended
@@ -24,28 +24,29 @@ sysinternals                	   [Recommended]
         Fibratus     (Windows kernel activity)
     
 #### Div:
-        cygwin	     (terminal)
+        cygwin       (terminal)
         cmder        (terminal)     Recommended
         universal extraction tool   Recommended
         pafish       (sandbox detection tool)
-	
+  
 
 ### Linux (or cross-platform):
 
 #### File info
-        Balbuzard       	 (bruteforce XOR, ROL .. and find patterns)
-        strings         	 (strings)
-        flare-floss     	 (strings from malware)  Recommended
-        xxd		        	 (hex editor)            Recommended
-        Image-exiftool  	 (images)
-        Detect-it-easy  	 (file info)
-        file            	 (file info)
-        byteforce       	 (file info)
-        pescanner       	 (file info)             Recommended
-        binwalk        		 (file info)             Recommended
+        Balbuzard          (bruteforce XOR, ROL .. and find patterns)
+        strings            (strings)
+        flare-floss        (strings from malware)  Recommended
+        xxd               (hex editor)            Recommended
+        Image-exiftool     (images)
+        Detect-it-easy     (file info)
+        file               (file info)
+        byteforce          (file info)
+        pescanner          (file info)             Recommended
+        binwalk             (file info)             Recommended
+
 ###### Uses online resources
-				MaltegoVT            (Domain, IP or file info) uses virustotal API 
-				TekDefense-Automater (lookups: IP, domain, HASH)
+        MaltegoVT            (Domain, IP or file info) uses virustotal API 
+        TekDefense-Automater (lookups: IP, domain, HASH)
         machinae             (info gathering from sites) 
    
 #### Web related: 
@@ -53,7 +54,7 @@ sysinternals                	   [Recommended]
         fiddler      (HTTP/HTTPS debugging)     Recommended
         inetsim       (simulate internet services in a lab environment)
         
-				whois               
+        whois               
         IPinfo
         Firebug         (browser plugin - debugger and more)
                         Better tools for javascript exists, spidermonkey?
@@ -63,12 +64,12 @@ sysinternals                	   [Recommended]
         VolDiff      (compare win7 dumps with volatility)
         
 #### DNS:
-        dig             (DNS lookup)	
-				DNSviz		analyzing & visualizing  DNS/DNSSEC behavior
-				Unbound 	validating recursive caching resolver
+        dig             (DNS lookup)  
+        DNSviz    analyzing & visualizing  DNS/DNSSEC behavior
+        Unbound   validating recursive caching resolver
         fakedns
-				
-				[more tools](https://www.verisign.com/en_US/company-information/verisign-labs/internet-security-tools/index.xhtml)
+        
+        [more tools](https://www.verisign.com/en_US/company-information/verisign-labs/internet-security-tools/index.xhtml)
 
 
 
@@ -76,27 +77,27 @@ sysinternals                	   [Recommended]
 ###### Reversing
         Radare2  (binary analyzis, disassembler)         Recommended
         IDA-pro  (-||- however free version is limited)  Recommended
-				capstone 			 (disassembler) 
+        capstone        (disassembler) 
         nasm           (disassembler) 
-				x86dis				 (disassembler x86)
+        x86dis         (disassembler x86)
 ###### Debuggers
         vivisect/vdb/vtrace  (static analysis, debugger)
-				GDB                  (GNU Project Debugger)
-        PINCE                (GDB front-end/reverse engineering)	
-				strace               (simple debugger)
+        GDB                  (GNU Project Debugger)
+        PINCE                (GDB front-end/reverse engineering)  
+        strace               (simple debugger)
 ###### Other
-        pyelftools           (Python library for parsing ELF and DWARF)	
-				
-				[Malicious JS Analyser](https://github.com/CapacitorSet/box-js)
+        pyelftools           (Python library for parsing ELF and DWARF)  
+        
+        [Malicious JS Analyser](https://github.com/CapacitorSet/box-js)
 
 
 ### To consider:
-http://www.kitploit.com/2016/07/limon-sandbox-for-analyzing-linux.html 		(linux malware analysis)
-	
-https://www.blackhat.com/us-16/briefings.html#augmenting-static-analysis-using-pintool-ablation		(static analysis)
-	
+http://www.kitploit.com/2016/07/limon-sandbox-for-analyzing-linux.html     (linux malware analysis)
+  
+https://www.blackhat.com/us-16/briefings.html#augmenting-static-analysis-using-pintool-ablation    (static analysis)
+  
 ### Assorted:
-http://www.keystone-engine.org/		(assembler framework)
+http://www.keystone-engine.org/    (assembler framework)
   
 SMRT            (Sublime plugin for malware research)
 
