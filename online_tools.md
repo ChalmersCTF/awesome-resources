@@ -13,6 +13,13 @@
     
     
 ### Analyze web content:
+	(just use e.g. nmap to scan ALL ports)
+	
+	https://shodan.io  Scans regular ports
+
+	https://www.binaryedge.io/ratemyip.html Scans for ports, CVEs, torrents ..
+
+
 
 ##### Info:
   https://www.dan.me.uk/torcheck     TOR CHECK
@@ -25,8 +32,6 @@
   
   
 ##### Blacklist:
-  https://ipvoid.com		    Recommended
-  
   https://virustotal.com	            Recommended
   
   https://www.spamhaus.org/lookup/
@@ -39,7 +44,7 @@
 
   https://www.url-analyzer.net/       (domain only)
 
-  http://www.ipvoid.com/              (IP only)
+  http://www.ipvoid.com/              (IP only + other tools) Recommended
 
   https://www.spamcop.net/bl.shtml    (IP only)
        
