@@ -1,5 +1,7 @@
 ### Scanners
-  https://www.virustotal.com       Recommended
+	NEVER UPLOAD SENSITIVE MATERIAL TO ANY ONLINE SERVICE
+
+  https://www.virustotal.com       (Google) Recommended
   
   https://www.hybrid-analysis.com  Recommended
   
@@ -17,7 +19,7 @@
 	
 	https://shodan.io  Scans regular ports
 
-	https://www.binaryedge.io/ratemyip.html Scans for ports, CVEs, torrents ..
+	https://www.binaryedge.io/ratemyip.html Scans ports, and for CVEs, torrent activity ..
 
 
 
