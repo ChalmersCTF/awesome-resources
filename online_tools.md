@@ -32,7 +32,7 @@
   
   https://whois.domaintools.com/
   
-  https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/ Identify software
+  https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/ Identify software on web server
   
   
 ##### Blacklist:
