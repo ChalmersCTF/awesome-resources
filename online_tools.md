@@ -15,7 +15,7 @@
     
     
 ### Analyze web content:
-	(just use e.g. nmap to scan ALL ports)
+	(just use e.g. nmap to scan ALL ports), see https://github.com/Eliot-Roxbergh/dotFIles/blob/master/text_files/example_commands.txt
 	
 	https://shodan.io  Scans regular ports
 
@@ -31,6 +31,8 @@
   http://urlquery.net
   
   https://whois.domaintools.com/
+  
+  https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/ Identify software
   
   
 ##### Blacklist:
