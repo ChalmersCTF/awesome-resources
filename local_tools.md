@@ -2,7 +2,8 @@ General terminal commands and e.g. nmap examples https://github.com/Eliot-Roxber
 
 ### OS / bootable:
     remnux    (linux distro for malware and reversing)    Recommended
-    santoku   (linux distro for malware and forensics) 
+    santoku   (linux distro for malware and forensics)
+    Matriux   (-||- debian-based)
     cuckoo    (sandbox)   
     sandboxie (sandbox)
 
