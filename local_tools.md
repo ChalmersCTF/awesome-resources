@@ -1,3 +1,5 @@
+General terminal commands and e.g. nmap examples https://github.com/Eliot-Roxbergh/dotFIles/blob/master/text_files/example_commands.txt
+
 ### OS / bootable:
     remnux    (linux distro for malware and reversing)    Recommended
     santoku   (linux distro for malware and forensics) 
