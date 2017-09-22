@@ -6,6 +6,8 @@
 
    [PenTesting Cheat Sheet](https://highon.coffee/blog/penetration-testing-tools-cheat-sheet/#finger-a-specific-username)
 
+ 	 [Vulnerable virtual machines for learning](https://github.com/cliffe/SecGen)
+
 ### Reversing
    https://securedorg.github.io/RE101/
 
