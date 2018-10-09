@@ -4,6 +4,6 @@
 
 ### [Local Tools](local_tools.md)
 
-
+### [Learning & CTF](learning_&_CTF.md)
 
 *The opinions expressed in this repository does not necessarily reflect those held by Chalmers-CTF or its members*
